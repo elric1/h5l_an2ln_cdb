@@ -1,0 +1,12 @@
+Source: h5l-an2ln-cdb
+Section: unknown
+Priority: extra
+Maintainer: elric <elric@imrryr.org>
+Build-Depends: debhelper (>= 7), dh-autoreconf, heimdal, libcdb-dev
+Standards-Version: 3.8.3
+Homepage: http://oskt.secure-endpoints.com/knc
+
+Package: h5l-an2ln-cdb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Heimdal plugin to an2ln using cdb.
