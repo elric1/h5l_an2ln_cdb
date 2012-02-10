@@ -9,4 +9,5 @@ Homepage: http://oskt.secure-endpoints.com/knc
 Package: h5l-an2ln-cdb
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: tinycdb
 Description: Heimdal plugin to an2ln using cdb.
